@@ -7,12 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="#FFFFFF">
-    
-    <TextView
-        android:id="@+id/attractions"
-        style="@style/CategoryStyle"
-        android:background="#5D8AA8"
-        android:text="@string/Attractions"/>
 
     <TextView
         android:id="@+id/restaurants"
@@ -21,10 +15,16 @@
         android:text="@string/Restaurants"/>
 
     <TextView
-        android:id="@+id/public_places"
+        android:id="@+id/shopping"
+        style="@style/CategoryStyle"
+        android:background="#5D8AA8"
+        android:text="@string/Shopping"/>
+
+    <TextView
+        android:id="@+id/parks"
         style="@style/CategoryStyle"
         android:background="#7979FF"
-        android:text="@string/Public"/>
+        android:text="@string/Parks"/>
 
     <TextView
         android:id="@+id/events"
