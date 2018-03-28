@@ -33,7 +33,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="top"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white" />
 
@@ -42,8 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="bottom"
-            android:textStyle="bold"
+            android:textSize="12dp"
+            android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white" />
 

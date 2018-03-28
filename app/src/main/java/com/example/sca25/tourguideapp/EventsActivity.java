@@ -20,7 +20,8 @@ public class EventsActivity extends AppCompatActivity{
 
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("National River Cleanup Day: Morgan Hill Creek Cleanup", "This is a wonderful opportunity for individuals, families and groups to enhance the health of West Little Llagas Creek and its wildlife. We will concentrate on picking up litter from Edes Court north to Spring Avenue and south to Edmundson Avenue- gloves, bags and litter grabbers will be provided.", R.drawable.river));
+        words.add(new Word("5/19 National River Cleanup Day", "West Little Llagas Creek. Gloves and bags are provided", R.drawable.river));
+        words.add(new Word("6/1 First Friday Art Walk", "Self-guided tour through downtown restaurants and shops to see  the  latest art exhibits", R.drawable.art));
 
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_colors);
 
