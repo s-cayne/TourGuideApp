@@ -8,17 +8,17 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+// create main menu for events, parks, restaurants, and shopping
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+// create TextView for the main menu
         TextView events = (TextView)findViewById(R.id.events);
         TextView parks = (TextView)findViewById(R.id.parks);
         TextView restaurants = (TextView)findViewById(R.id.restaurants);
         TextView shopping = (TextView)findViewById(R.id.shopping);
-
+// setOnClickListeners for each menu item
         events.setOnClickListener(new View.OnClickListener()
         {
             @Override
