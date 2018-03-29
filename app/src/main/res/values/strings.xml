@@ -1,10 +1,34 @@
 <resources>
-    <string name="app_name">Morgan Hill</string>
+    <string name="app_name">Tour of Morgan Hill</string>
     <string name="Shopping">Shopping</string>
     <string name="Restaurants">Restaurants</string>
     <string name="Parks">Parks and Recreation</string>
     <string name="Events">Events</string>
     <string name="Description">El Toro</string>
+    <string name="EventOneTitle">5/19 National River Cleanup Day</string>
+    <string name="EventOneDesc">West Little Llagas Creek. Gloves and bags are provided</string>
+    <string name="EventTwoTitle">6/1 First Friday Art Walk</string>
+    <string name="EventTwoDesc">Self-guided tour through downtown restaurants and shops to see  the  latest art exhibits</string>
+    <string name="ParkOneTitle">Diana Park</string>
+    <string name="ParkOneDesc">Diana Ave, Morgan Hill, CA 95037</string>
+    <string name="ParkTwoTitle">Morgan Hill Community Park</string>
+    <string name="ParkTwoDesc">171 W Edmundson Ave, Morgan Hill, CA 95037</string>
+    <string name="ParkThreeTitle">Anderson Lake County Park</string>
+    <string name="ParkThreeDesc">19245 Malaguerra Ave, Morgan Hill, CA 95037</string>
+    <string name="ParkFourTitle">"Morgan Hill Dog Owner's Group"</string>
+    <string name="ParkFourDesc">271 W Edmundson Ave, Morgan Hill, CA 95037\nDog Park</string>
+    <string name="ShopOneTitle">The Running Shop and Hops</string>
+    <string name="ShopOneDesc">17500 Depot St, Morgan Hill, CA 95037</string>
+    <string name="ShopTwoTitle">Booksmart - Books, Toys, and Cafe</string>
+    <string name="ShopTwoDesc">1295 E Dunne Ave Suite 120 \nMorgan Hill, CA 95037</string>
+    <string name="ShopThreeTitle">Anime 101 and Manga Too</string>
+    <string name="ShopThreeDesc">313 Vineyard Blvd, Morgan Hill, CA 95037</string>
+    <string name="RestOneTitle">Maurizio&apos;s</string>
+    <string name="RestOneDesc">25 E 1st St, Morgan Hill, CA 95037</string>
+    <string name="RestTwoTitle">Rosy&apos;s At The Beach</string>
+    <string name="RestTwoDesc">17320 Monterey St, Morgan Hill, CA 95037</string>
+    <string name="RestThreeTitle">Trail Dust BBQ</string>
+    <string name="RestThreeDesc">17240 Monterey Street, Morgan Hill, CA 95037</string>
 
 
 </resources>

@@ -1,6 +1,30 @@
 package com.example.sca25.tourguideapp;
 
 
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.ListView;
 
-public class ShoppingActivity {
+import java.util.ArrayList;
+
+public class ShoppingActivity extends AppCompatActivity {
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.word_list);
+
+        final ArrayList<Word> words = new ArrayList<Word>();
+
+        words.add(new Word(getString(R.string.ShopOneTitle), getString(R.string.ShopOneDesc), R.drawable.beer));
+        words.add(new Word(getString(R.string.ShopTwoTitle), getString(R.string.ShopTwoDesc), R.drawable.book));
+        words.add(new Word(getString(R.string.ShopThreeTitle), getString(R.string.ShopThreeDesc), R.drawable.comic));
+
+        WordAdapter adapter = new WordAdapter(this, words, R.color.shop_color);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
+
+    }
+
 }

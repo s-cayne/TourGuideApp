@@ -3,5 +3,8 @@
     <color name="colorPrimary">#6CA870</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="category_colors">#8800A0</color>
+    <color name="event_color">#cc9900</color>
+    <color name="park_color">#7979FF</color>
+    <color name="shop_color">#5D8AA8</color>
+    <color name="rest_color">#FF7575</color>
 </resources>

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent parksIntent = new Intent(MainActivity.this,
-                        EventsActivity.class);
+                        ParksActivity.class);
 
                 startActivity(parksIntent);
             }

@@ -16,9 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".EventsActivity"
-            android:label="Events" />
+        <activity android:name=".EventsActivity"
+            android:label="@string/Events" />
+        <activity android:name=".ParksActivity"
+            android:label="@string/Parks" />
+        <activity android:name=".ShoppingActivity"
+            android:label="@string/Shopping" />
+        <activity android:name=".RestaurantsActivity"
+            android:label="@string/Restaurants" />
     </application>
 
 </manifest>
