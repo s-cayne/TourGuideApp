@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Tour of Morgan Hill</string>
+    <string name="icon">icons</string>
     <string name="Shopping">Shopping</string>
     <string name="Restaurants">Restaurants</string>
     <string name="Parks">Parks and Recreation</string>
